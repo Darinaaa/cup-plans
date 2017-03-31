@@ -1,0 +1,60 @@
+html, body {
+	background-image: url(../img/back.jpg);
+	font-family: 'Lato';
+	color:  #333333;
+   font-size: 16px;
+   line-height: 24px;
+
+}
+.main_block {
+  width:80%;
+  margin: 20px auto 0;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height: 450px;
+}
+.small_block {
+  width: 30%;
+  height:90%;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.big_block {
+  width: 30%;
+  height: 100%;
+  background-color:white;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+    display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.images{
+height: 50%;
+
+}
+.price{
+color: green;
+position: relative;
+left: 75px;
+bottom: 35px;
+}
+.cup{
+position: relative;
+top: 50px;
+right:  17px;
+
+}
+.smoke{
+	position: relative;
+	bottom:  40px;
+	left: 80px;
+}
+.descr{
+	text-align: center;
+}
